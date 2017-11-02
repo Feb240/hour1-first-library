@@ -21,3 +21,11 @@ float cm_to_mi(void)
     printf("\nThe number of miles is %.2f\n", mi);
     return mi;
 }
+
+float kilo_to_miles(void)
+{
+    float kilo = get_float("Number of kilometers");
+    float kilo = miles / .621371;
+    printf("\n The number of miles is %.2f\n", kilo);
+    return kilo;
+}
